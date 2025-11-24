@@ -437,3 +437,39 @@ body.nav-active { overflow: hidden; }
   max-width: max-content;
   z-index: -1;
 }
+.w-100 { width: 100%; }
+
+.move-anim { animation: move 5s linear infinite; }
+
+@keyframes move {
+  0%,
+  100% { transform: translateY(0); }
+
+  50% { transform: translateY(30px); }
+}
+
+.has-bg-image {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.input-field {
+  background-color: var(--eerie-black-2);
+  color: var(--white);
+  height: 56px;
+  padding: 10px 20px;
+  border: 1px solid var(--white-alpha-10);
+  margin-block-end: 20px;
+  outline: none;
+  transition: border-color var(--transition-2);
+}
+
+.input-field::placeholder { color: inherit; }
+
+.input-field:focus { border-color: var(--gold-crayola); }
+
+.icon-wrapper {
+  position: relative;
+  margin-block-end: 20px;
+}
