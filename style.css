@@ -1075,3 +1075,25 @@ body.nav-active { overflow: hidden; }
   display: block;
   width: 70%;
 }
+.menu .shape-2 {
+  top: 0;
+  left: 0;
+}
+
+.menu .shape-3 {
+  bottom: 0;
+  right: 0;
+}
+
+
+
+
+
+/*-----------------------------------*\
+  #TESTIMONIALS
+\*-----------------------------------*/
+
+.testi {
+  padding-block-end: 340px;
+  position: static;
+}
