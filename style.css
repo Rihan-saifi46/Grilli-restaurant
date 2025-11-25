@@ -1137,3 +1137,13 @@ body.nav-active { overflow: hidden; }
   display: inline;
   color: var(--gold-crayola);
 }
+.form-right .headline-1 { margin-block-end: 40px; }
+
+.form-right .contact-label { margin-block-end: 5px; }
+
+.form-right .separator { margin: 20px auto; }
+
+.form-right .body-4 {
+  color: var(--quick-silver);
+  line-height: var(--lineHeight-3);
+}
