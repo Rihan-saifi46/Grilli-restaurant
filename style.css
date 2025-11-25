@@ -1124,3 +1124,16 @@ body.nav-active { overflow: hidden; }
 }
 
 
+
+/*-----------------------------------*\
+  #RESERVATION
+\*-----------------------------------*/
+
+.reservation-form { margin-block-start: -270px; }
+
+.form-text { margin-block-end: 40px; }
+
+.form-text .link {
+  display: inline;
+  color: var(--gold-crayola);
+}
