@@ -1245,3 +1245,38 @@ textarea.input-field {
   letter-spacing: var(--letterSpacing-2);
   margin-block-end: 5px;
 }
+
+.event-card .card-banner .img-cover { transition: var(--transition-2); }
+
+.event-card:is(:hover, :focus-within) .img-cover { transform: scale(1.05); }
+
+.event .btn {
+  margin-inline: auto;
+  margin-block-start: 40px;
+}
+
+
+
+
+
+/*-----------------------------------*\
+  #FOOTER
+\*-----------------------------------*/
+
+.footer-top { margin-block-end: 70px; }
+
+.footer-brand {
+  position: relative;
+  padding: 50px 40px;
+  background: var(--smoky-black-1) url("../images/footer-form-bg.png");
+  background-position: center top;
+  background-repeat: repeat;
+}
+
+.footer-brand::before,
+.footer-brand::after {
+  top: 0;
+  width: 15px;
+  height: 100%;
+  background-image: url("../images/footer-form-pattern.svg");
+}
