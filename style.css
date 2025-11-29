@@ -1504,3 +1504,28 @@ textarea.input-field {
     margin-inline: auto;
   }
 
+
+  /**
+   * ABOUT
+   */
+
+  .about .container { gap: 80px; }
+
+  .about-banner > .w-100 { padding-inline-start: 90px; }
+
+  .about .abs-img-1 { width: 285px; }
+
+  .about .contact-number { --fontSize-body-1: 2.4rem; }
+
+
+
+  /**
+   * MENU
+   */
+
+  .menu-card .title-wrapper {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 15px;
+  }
