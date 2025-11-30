@@ -1796,3 +1796,45 @@ textarea.input-field {
   }
 
 
+
+  /**
+   * TESTIMONIALS
+   */
+
+  .testi-text {
+    max-width: 910px;
+    margin-inline: auto;
+  }
+
+
+
+  /**
+   * RESERVATION
+   */
+
+  .reservation-form {
+    display: grid;
+    grid-template-columns: 1fr 0.5fr;
+  }
+
+
+
+  /**
+   * FOOTER
+   */
+
+  .footer .grid-list {
+    grid-template-columns: 0.45fr 1fr 0.45fr;
+    align-items: center;
+  }
+
+  .footer-brand {
+    grid-column: auto;
+    order: 1;
+    padding-block: 100px;
+  }
+
+  .footer-list:last-child { order: 2; }
+
+}
+
