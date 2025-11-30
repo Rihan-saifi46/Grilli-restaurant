@@ -1765,3 +1765,34 @@ textarea.input-field {
 
   .special-dish .section-subtitle::after,
   .special-dish .btn { margin-inline: 0; }
+
+  .special-dish-content .wrapper { justify-content: flex-start; }
+
+  .special-dish .abs-img {
+    position: absolute;
+    top: 10px;
+    left: -40px;
+    animation: move 5s linear infinite;
+  }
+
+
+
+  /**
+   * MENU
+   */
+
+  .menu .grid-list {
+    position: relative;
+    column-gap: 90px;
+  }
+
+  .menu .grid-list::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 50%;
+    height: 100%;
+    border-inline-start: 1px solid var(--white-alpha-20);
+  }
+
+
