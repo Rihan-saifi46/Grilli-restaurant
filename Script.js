@@ -100,3 +100,15 @@ const slideNext = function () {
 
   updateSliderPos();
 }
+
+heroSliderNextBtn.addEventListener("click", slideNext);
+
+const slidePrev = function () {
+  if (currentSlidePos <= 0) {
+    currentSlidePos = heroSliderItems.length - 1;
+  } else {
+    currentSlidePos--;
+  }
+
+  updateSliderPos();
+}
