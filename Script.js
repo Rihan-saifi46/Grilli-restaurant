@@ -38,3 +38,15 @@ const toggleNavbar = function () {
   overlay.classList.toggle("active");
   document.body.classList.toggle("nav-active");
 }
+addEventOnElements(navTogglers, "click", toggleNavbar);
+
+
+
+/**
+ * HEADER & BACK TOP BTN
+ */
+
+const header = document.querySelector("[data-header]");
+const backTopBtn = document.querySelector("[data-back-top-btn]");
+
+let lastScrollPos = 0;
