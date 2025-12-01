@@ -112,3 +112,16 @@ const slidePrev = function () {
 
   updateSliderPos();
 }
+heroSliderPrevBtn.addEventListener("click", slidePrev);
+
+/**
+ * auto slide
+ */
+
+let autoSlideInterval;
+
+const autoSlide = function () {
+  autoSlideInterval = setInterval(function () {
+    slideNext();
+  }, 7000);
+}
